@@ -1,6 +1,6 @@
-import { Carro, outraCoisa as x } from './Carro'
+import Carro, { outraCoisa as x } from './Carro'
 import Pessoa from './Pessoa'
-import { Concessionaria } from './Concessionaria'
+import Concessionaria from './Concessionaria'
 
 let carroA = new Carro("carroA", 4)
 let carroB = new Carro("Carrob", 3)
@@ -19,4 +19,4 @@ concessionaria.mostrarListaDeCarros().map((carro: Carro) => {
     }
 })
 
-cliente.DizerCarro()
+console.log(cliente.DizerCarro())
